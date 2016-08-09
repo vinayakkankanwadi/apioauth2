@@ -1,13 +1,14 @@
-1. Create package.json with empty dependencies
-
+###1. Create package.json with empty dependencies
+````
 {
   "name": "api",
   "main": "server.js",
   "dependencies": {
   }
 }
-
-2. Add express dependency locally 
+````
+###2. Add express dependency locally 
+````
 npm install express --save
 
 {
@@ -17,14 +18,17 @@ npm install express --save
     "express": "^4.1.1"
   }
 }
-
-2. Create server.json
+````
+###3. Create server.json
+````
 	-- Require packages (express)
 	-- Create router
 	-- Create routes
 	-- Register routes
 	-- Start server on port
-
-3. Use nodemon to auto restart on changes
+````
+###4. Use nodemon to auto restart on changes
+````
 npm install -g nodemon
 nodemon server.js
+````
